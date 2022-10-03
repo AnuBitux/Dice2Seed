@@ -121,7 +121,7 @@ if ans == 'y' or ans == 'Y':
     while tour:
         is_bin = False
         is_dice = False
-        dicestr = input('Paste your string now with Ctrl + Shift + V\nnote that it must be 256 digits long\n')
+        dicestr = input(f'Paste your string now with Ctrl + Shift + V\nnote that it must be {bits} digits long\n')
         if len(dicestr) != bits:
             print(color.RED + f'Entropy has to be {bits} digits long' + color.END)
         else:
