@@ -206,8 +206,15 @@ while b < len(index_list):
     index_list_int.append(int(index_list[b], 2))
     b += 1
 
+# Verify conversion
+c = 0
+print(color.DARKCYAN + '\nVerify indexes' + color.END)
+while c < len(index_list):
+    print(f'Index {c + 1}: {index_list[c]} -> {index_list_int[c]}')
+    c += 1
+
 # Choose language
-print(color.GREEN + 'Choose your mnemonic seed language' + color.END)
+print(color.GREEN + '\nChoose your mnemonic seed language' + color.END)
 print(' 1 -> Engligh')
 print(' 2 -> Japanese')
 print(' 3 -> Korean')
