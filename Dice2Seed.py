@@ -279,8 +279,11 @@ while w < len(index_list_int):
 c = 0
 print(color.DARKCYAN + '\nVerify indexes' + color.END)
 while c < len(index_list):
-    print(f'Index {c + 1}: {index_list[c]} -> {index_list_int[c]} -> {mnemonic[c]}')
-    c += 1    
+    if c < 9:
+        print(f'Index 0{c + 1}: {index_list[c]} -> {str(index_list_int[c]).zfill(4)} -> {mnemonic[c]}')
+    else:
+        print(f'Index {c + 1}: {index_list[c]} -> {str(index_list_int[c]).zfill(4)} -> {mnemonic[c]}')
+    c += 1
     
 mnemonic_clean = ' '.join(mnemonic)
 print('\n==========')
