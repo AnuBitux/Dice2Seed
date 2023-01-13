@@ -1,5 +1,6 @@
 # Dice2Seed
 This tool creates BIP39 mnemonic seeds from entropy obtained rolling a dice a lot of times.
+To see how it works, you can also refer to this [tutorial](https://anubitux.org/how-to-generate-a-mnemonic-seed-with-anubitux-and-a-dice/).
 
 ### Installation
 Install git, python3 and pip (if needed):
