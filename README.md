@@ -5,19 +5,6 @@
 This tool creates BIP39 mnemonic seeds from entropy obtained rolling a dice a lot of times.
 To see how it works, you can also refer to this [tutorial](https://anubitux.org/how-to-generate-a-mnemonic-seed-with-anubitux-and-a-dice/).
 
-### Installation
-Install git, python3 and pip (if needed):
-```
-sudo apt install git python3 python3-pip
-```
-Clone the repository:
-```
-git clone https://github.com/ASeriousMister/Dice2Seed
-```
-Move to the tool's directory
-```
-cd /path/Dice2Seed
-```
 
 ### Utilization
 User simply has to provide answers to the prompted questions.
