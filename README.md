@@ -1,4 +1,7 @@
 # Dice2Seed
+
+## This version of the tool has been edited to work in the AnuBitux operating system. To use it in other environments, refer to the [main branch](https://github.com/ASeriousMister/Dice2Seed)
+
 This tool creates BIP39 mnemonic seeds from entropy obtained rolling a dice a lot of times.
 To see how it works, you can also refer to this [tutorial](https://anubitux.org/how-to-generate-a-mnemonic-seed-with-anubitux-and-a-dice/).
 
