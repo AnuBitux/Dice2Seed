@@ -1,7 +1,10 @@
-#!/usr/bin/env python3
+#!/home/anubitux/Tools/AddressGen/Dice2Seed/dsve/bin/python3
 
 import hashlib
 import binascii
+import os
+
+os.chdir('/home/anubitux/Tools/AddressGen/Dice2Seed/')
 
 class color:
     PURPLE = '\033[95m'
@@ -207,7 +210,7 @@ while b < len(index_list):
     b += 1
 
 # Choose language
-print(color.GREEN + '\nChoose your mnemonic seed language' + color.END)
+print(color.GREEN + 'Choose your mnemonic seed language' + color.END)
 print(' 1 -> Engligh')
 print(' 2 -> Japanese')
 print(' 3 -> Korean')
