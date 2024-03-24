@@ -1,10 +1,9 @@
-#!/home/anubitux/Tools/AddressGen/Dice2Seed/dsve/bin/python3
-
 import hashlib
 import binascii
 import os
 
-os.chdir('/home/anubitux/Tools/AddressGen/Dice2Seed/')
+user_folder = os.getlogin()
+os.chdir('/opt/Tools/WalletGen/Dice2Seed/')
 
 class color:
     PURPLE = '\033[95m'
